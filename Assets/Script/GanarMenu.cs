@@ -14,4 +14,8 @@ public class GanarMenu : MonoBehaviour
         Debug.Log("Juego");
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
+    public void salir()
+    {
+        Application.Quit();
+    }
 }
