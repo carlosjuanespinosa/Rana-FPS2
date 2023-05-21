@@ -24,7 +24,8 @@ public enum SoundName
    GemidoPerro,
    MusicaFondo,
    Croar,
-   Lenguetazo
+   Lenguetazo,
+   Verdura
 }
 
 [System.Serializable]

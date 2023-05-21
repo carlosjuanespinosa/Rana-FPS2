@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ab20d98be4a7f704fa2e1248d81c6dc5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - '[Pencilized]'
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3d03689915f9e6e4494f2123df33f530, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

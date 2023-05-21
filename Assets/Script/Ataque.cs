@@ -9,9 +9,11 @@ public class Ataque : MonoBehaviour
    public void Lengua()
     {
         GameObject tongue = GameObject.FindGameObjectWithTag("Tongue");
-
+        
         if (tongue is not null)
         {
+         
+
 
             if (tongue.TryGetComponent(out Collider tongueCollider))
             {

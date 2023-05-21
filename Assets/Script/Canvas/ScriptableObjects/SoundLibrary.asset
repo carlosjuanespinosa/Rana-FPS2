@@ -26,7 +26,7 @@ MonoBehaviour:
     hasPlayTimer: 0
     playTimer: 0
   - soundName: 3
-    audioClip: {fileID: 8300000, guid: 3402027f75743f94b88b9ee00fe255f7, type: 3}
+    audioClip: {fileID: 8300000, guid: c760b82931dad644a90e0e9302435284, type: 3}
     loop: 1
     volume: 0.515
     hasPlayTimer: 0
@@ -39,6 +39,18 @@ MonoBehaviour:
     playTimer: 0
   - soundName: 2
     audioClip: {fileID: 8300000, guid: 2f13747e94548684faae02580fa62d45, type: 3}
+    loop: 0
+    volume: 0.515
+    hasPlayTimer: 0
+    playTimer: 0
+  - soundName: 5
+    audioClip: {fileID: 8300000, guid: 64a7f995867495b43b63d47ef5da42fb, type: 3}
+    loop: 0
+    volume: 0.515
+    hasPlayTimer: 0
+    playTimer: 0
+  - soundName: 6
+    audioClip: {fileID: 8300000, guid: 37e9d52949e4b5445919066a9a2f4dd7, type: 3}
     loop: 0
     volume: 0.515
     hasPlayTimer: 0

@@ -35,6 +35,7 @@ public class ControlDisparo : MonoBehaviour
     {
         if(contadoresplayer.Cultivos > 0)
         {
+            AudioManager.i.PlaySound(SoundName.Verdura, gameObject.transform.position);
             if (contadoresplayer.Pimientos > 0)
             {
                 contadoresplayer.Disparar();
@@ -65,7 +66,8 @@ public class ControlDisparo : MonoBehaviour
     private void CuerpoaCuerpo()
     {
         animator.SetTrigger("Tongue");
-       
+        AudioManager.i.PlaySound(SoundName.Lenguetazo, gameObject.transform.position);
+
     }
   
 
