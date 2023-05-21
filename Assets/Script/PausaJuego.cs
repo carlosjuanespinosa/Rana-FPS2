@@ -18,12 +18,18 @@ public class PausaJuego : MonoBehaviour
             Time.timeScale = 0f;
             Cursor.lockState = CursorLockMode.Confined;
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        }
         
     }
 
     public void Menu()
     {
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        Time.timeScale = 1f;
     }
     public void Salir()
     {
